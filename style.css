@@ -1,0 +1,126 @@
+body {
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+    width: 100vw;
+    height: 100vh;
+}
+
+.container {
+    align-items: center;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 60vw;
+    height: 70vh;
+    border-radius: 12px;
+    padding: 0  25px;
+    gap: 25px;
+    box-shadow: 3px 3px grey, -1em 0 .4em grey;
+}
+
+h1 {
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+    letter-spacing: 0.3rem;
+    /* margin-top: 50px; */
+}
+
+.input__bnt {
+    display: flex;
+    padding: 0 50px;  
+    width: 100%;
+    justify-content: center;
+    box-sizing: border-box; 
+}
+
+.input {
+    width: 85%;
+    height: 30px;
+    border-radius: 8px;
+    border: 2px solid lightblue;
+}
+
+.input:focus {
+    border: 2px solid blue;
+    outline: none;
+}
+
+.btn {
+    border-radius: 8px;
+    background: lightblue;
+    border: none;
+    font-weight: bold;  
+    cursor: pointer;
+    flex: 1;
+}
+
+.btn:active {
+    border: 2px solid blue;
+    outline: none;
+}
+
+.list {
+    display: flex; 
+    flex-direction: column;
+    width: 100%;
+    padding: 0 60px;  
+    box-sizing: border-box;
+    gap: 20px;
+}
+
+.list__icon {
+    display: flex;
+    justify-content: space-between;
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.edit {
+    color: green;
+    cursor: pointer;
+}
+
+.edit:active {
+    font-weight: bold;
+}
+
+.delete{
+    margin-top: 4px;
+    color: red;
+    cursor: pointer;
+}
+
+.delete:active {
+    font-weight: bold;
+}
+
+.clear__items {
+    color: red;
+    display: flex;
+    /* margin-top: 5px; */
+    background-color: transparent;
+    border: none;
+    letter-spacing: 0.2rem;
+    cursor: pointer;
+}
+
+.clear__items:active {
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
